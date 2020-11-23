@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tizen.Applications.WidgetControl</name>
+    </assembly>
+    <members>
+        <member name="T:Tizen.Applications.WidgetControl">
+            <summary>
+            The class for receiving widget events and sending data to the widget.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="T:Tizen.Applications.WidgetControl.Instance">
+            <summary>
+            Class for the widget instance.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="P:Tizen.Applications.WidgetControl.Instance.Id">
+            <summary>
+            The widget ID.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="M:Tizen.Applications.WidgetControl.Instance.GetContent">
+            <summary>
+            Gets the widget content.
+            </summary>
+            <returns>The bundle containing widget content.</returns>
+            <since_tizen> 3 </since_tizen>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.InvalidOperationException">Thrown in case of failed conditions.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="M:Tizen.Applications.WidgetControl.Instance.ChangeContent(Tizen.Applications.Bundle,System.Boolean)">
+            <summary>
+            Changes the content for the widget instance.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+            <param name="content">Content to be changed.</param>
+            <param name="force"> True if you want to update your widget even if the provider is paused, otherwise false.</param>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown in case of failed conditions.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="M:Tizen.Applications.WidgetControl.Instance.ChangePeriod(System.Double)">
+            <summary>
+            Changes the update period for the widget instance.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+            <param name="period">The period to be changed.</param>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown in case of failed conditions.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="T:Tizen.Applications.WidgetControl.Scale">
+            <summary>
+            The class for the widget size information.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="T:Tizen.Applications.WidgetControl.Scale.SizeType">
+            <summary>
+            Enumeration for the types of widget size.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="F:Tizen.Applications.WidgetControl.Scale.SizeType.Basic1x1">
+            <summary>
+            175x175 based on 720x1280 resolution.
+            </summary>
+        </member>
+        <member name="F:Tizen.Applications.WidgetControl.Scale.SizeType.Basic2x1">
+            <summary>
+            354x175 based on 720x1280 resolution.
+            </summary>
+        </member>
+        <member name="F:Tizen.Applications.WidgetControl.Scale.SizeType.Basic2x2">
+            <summary>
+            354x354 based on 720x1280 resolution.
+            </summary>
+        </member>
+        <member name="F:Tizen.Applications.WidgetControl.Scale.SizeType.Basic4x1">
+            <summary>
+            712x175 based on 720x1280 resolution.
+            </summary>
+        </member>
+        <member name="F:Tizen.Applications.WidgetControl.Scale.SizeType.Basic4x2">
+            <summary>
+            712x354 based on 720x1280 resolution.
+            </summary>
+        </member>
+        <member name="F:Tizen.Applications.WidgetControl.Scale.SizeType.Basic4x3">
+            <summary>
+            712x533 based on 720x1280 resolution.
+            </summary>
+        </member>
+        <member name="F:Tizen.Applications.WidgetControl.Scale.SizeType.Basic4x4">
+            <summary>
+            712x712 based on 720x1280 resolution.
+            </summary>
+        </member>
+        <member name="F:Tizen.Applications.WidgetControl.Scale.SizeType.Basic4x5">
+            <summary>
+            712x891 based on 720x1280 resolution.
+            </summary>
+        </member>
+        <member name="F:Tizen.Applications.WidgetControl.Scale.SizeType.Basic4x6">
+            <summary>
+            712x1070 based on 720x1280 resolution.
+            </summary>
+        </member>
+        <member name="F:Tizen.Applications.WidgetControl.Scale.SizeType.Easy1x1">
+            <summary>
+            224x215 based on 720x1280 resolution.
+            </summary>
+        </member>
+        <member name="F:Tizen.Applications.WidgetControl.Scale.SizeType.Easy1x2">
+            <summary>
+            680x215 based on 720x1280 resolution.
+            </summary>
+        </member>
+        <member name="F:Tizen.Applications.WidgetControl.Scale.SizeType.Easy1x3">
+            <summary>
+            680x653 based on 720x1280 resolution.
+            </summary>
+        </member>
+        <member name="F:Tizen.Applications.WidgetControl.Scale.SizeType.Full">
+            <summary>
+            720x1280 based on 720x1280 resolution.
+            </summary>
+        </member>
+        <member name="P:Tizen.Applications.WidgetControl.Scale.Width">
+            <summary>
+            Widget width.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="P:Tizen.Applications.WidgetControl.Scale.Height">
+             <summary>
+            Widget height.
+             </summary>
+             <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="P:Tizen.Applications.WidgetControl.Scale.PreviewImagePath">
+            <summary>
+            The path for the widget preview image file.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="P:Tizen.Applications.WidgetControl.Scale.Type">
+            <summary>
+            The size type of the widget.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="M:Tizen.Applications.WidgetControl.CreateAll(System.String)">
+            <summary>
+            Factory method for the WidgetControl.
+            It will create all the objects of WidgetControl based on the package ID.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+            <param name="pkgId">Package ID.</param>
+            <returns>The widget control array.</returns>
+            <privilege>http://tizen.org/privilege/widget.viewer</privilege>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown in case of failed conditions.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="M:Tizen.Applications.WidgetControl.GetWidgetIds(System.String)">
+            <summary>
+            Gets all the widget IDs by the package ID.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+            <param name="pkgId">Package ID.</param>
+            <returns>The widget id array.</returns>
+            <privilege>http://tizen.org/privilege/widget.viewer</privilege>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown in case of failed conditions.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="P:Tizen.Applications.WidgetControl.MainAppId">
+            <summary>
+            Gets main appid of the widget.
+            </summary>
+            <since_tizen> 6 </since_tizen>
+            <privilege>http://tizen.org/privilege/widget.viewer</privilege>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="P:Tizen.Applications.WidgetControl.PackageId">
+            <summary>
+            Gets package ID of the widget.
+            </summary>
+            <since_tizen> 6 </since_tizen>
+            <privilege>http://tizen.org/privilege/widget.viewer</privilege>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="P:Tizen.Applications.WidgetControl.Id">
+            <summary>
+            The widget ID.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="P:Tizen.Applications.WidgetControl.IsNoDisplay">
+            <summary>
+            The flag value for "nodisplay".
+            </summary>
+            <since_tizen> 3 </since_tizen>
+            <privilege>http://tizen.org/privilege/widget.viewer</privilege>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="P:Tizen.Applications.WidgetControl.SetupAppId">
+            <summary>
+            Gets setup app ID of the widget.
+            </summary>
+            <since_tizen> 8 </since_tizen>
+            <privilege>http://tizen.org/privilege/widget.viewer</privilege>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown in case of failed conditions.</exception>
+        </member>
+        <member name="P:Tizen.Applications.WidgetControl.MaxCount">
+            <summary>
+            Gets widget max count
+            </summary>
+            <since_tizen> 8 </since_tizen>
+            <privilege>http://tizen.org/privilege/widget.viewer</privilege>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown in case of failed conditions.</exception>
+        </member>
+        <member name="E:Tizen.Applications.WidgetControl.Created">
+            <summary>
+             The event handler for a created widget instance.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.InvalidOperationException">Thrown in case of failed conditions.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="E:Tizen.Applications.WidgetControl.Resumed">
+            <summary>
+            The event handler for a resumed widget instance.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.InvalidOperationException">Thrown in case of failed conditions.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="E:Tizen.Applications.WidgetControl.Paused">
+            <summary>
+            The event handler for a paused widget instance.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.InvalidOperationException">Thrown in case of failed conditions.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="E:Tizen.Applications.WidgetControl.Destroyed">
+            <summary>
+            The event handler for a destroyed widget instance.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.InvalidOperationException">Thrown in case of failed conditions.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="M:Tizen.Applications.WidgetControl.#ctor(System.String)">
+            <summary>
+            The constructor of the WidgetControl object.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+            <param name="widgetId">Widget ID.</param>
+        </member>
+        <member name="M:Tizen.Applications.WidgetControl.Finalize">
+            <summary>
+            Finalizer of the WidgetControl class.
+            </summary>
+        </member>
+        <member name="M:Tizen.Applications.WidgetControl.GetInstances">
+            <summary>
+            Gets the objects for widget instance information.
+            </summary>
+            <returns>The instances list.</returns>
+            <since_tizen> 3 </since_tizen>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.InvalidOperationException">Thrown in case of failed conditions.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the API is not supported in this device.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+        </member>
+        <member name="M:Tizen.Applications.WidgetControl.GetScales">
+            <summary>
+            Gets the objects for widget scale information.
+            </summary>
+            <returns>The scales list.</returns>
+            <since_tizen> 3 </since_tizen>
+            <privilege>http://tizen.org/privilege/widget.viewer</privilege>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.InvalidOperationException">Thrown in case of failed conditions.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="M:Tizen.Applications.WidgetControl.GetName(System.String)">
+            <summary>
+            Gets the widget name.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+            <param name="lang">Language.</param>
+            <returns>The widget name.</returns>
+            <privilege>http://tizen.org/privilege/widget.viewer</privilege>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.ArgumentNullException">Thrown when the argument is null.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="M:Tizen.Applications.WidgetControl.GetIconPath(System.String)">
+            <summary>
+            Gets the widget icon path.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+            <param name="lang">Language.</param>
+            <returns>The widget icon path.</returns>
+            <privilege>http://tizen.org/privilege/widget.viewer</privilege>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.ArgumentNullException">Thrown when the argument is null.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="M:Tizen.Applications.WidgetControl.GetInstanceCount">
+            <summary>
+            Gets widget instance count
+            </summary>
+            <since_tizen> 8 </since_tizen>
+            <returns>The widget instance count.</returns>
+            <privilege>http://tizen.org/privilege/widget.viewer</privilege>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown in case of failed conditions.</exception>
+        </member>
+        <member name="M:Tizen.Applications.WidgetControl.Dispose">
+            <summary>
+            Releases all the resources used by the WidgetControl class.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+            <feature>http://tizen.org/feature/shell.appwidget</feature>
+            <exception cref="T:System.InvalidOperationException">Thrown in case of failed conditions.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when an application does not have the required privileges to access this method.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the required features are not supported.</exception>
+        </member>
+        <member name="T:Tizen.Applications.WidgetLifecycleEventArgs">
+            <summary>
+            The class for event arguments of the widget lifecycle.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="T:Tizen.Applications.WidgetLifecycleEventArgs.EventType">
+            <summary>
+            Enumeration for the event type.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="F:Tizen.Applications.WidgetLifecycleEventArgs.EventType.Created">
+            <summary>
+            The widget is created.
+            </summary>
+        </member>
+        <member name="F:Tizen.Applications.WidgetLifecycleEventArgs.EventType.Destroyed">
+            <summary>
+            The widget is destroyed.
+            </summary>
+        </member>
+        <member name="F:Tizen.Applications.WidgetLifecycleEventArgs.EventType.Paused">
+            <summary>
+            The widget is paused.
+            </summary>
+        </member>
+        <member name="F:Tizen.Applications.WidgetLifecycleEventArgs.EventType.Resumed">
+            <summary>
+            The widget is resumed.
+            </summary>
+        </member>
+        <member name="P:Tizen.Applications.WidgetLifecycleEventArgs.WidgetId">
+            <summary>
+             The widget ID.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="P:Tizen.Applications.WidgetLifecycleEventArgs.InstanceId">
+            <summary>
+            The widget instance ID.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="P:Tizen.Applications.WidgetLifecycleEventArgs.Type">
+            <summary>
+            The event type.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+    </members>
+</doc>

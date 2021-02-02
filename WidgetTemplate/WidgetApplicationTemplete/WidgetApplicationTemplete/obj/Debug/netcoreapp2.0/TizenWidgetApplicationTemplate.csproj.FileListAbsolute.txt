@@ -1,0 +1,5 @@
+\\10.113.111.211\share\common\tscholb_sample\Templete_ACR\2021\WidgetTemplate\WidgetApplicationTemplete\WidgetApplicationTemplete\bin\Debug\netcoreapp2.0\tpkroot\bin\WidgetApplicationTemplate.dll
+\\10.113.111.211\share\common\tscholb_sample\Templete_ACR\2021\WidgetTemplate\WidgetApplicationTemplete\WidgetApplicationTemplete\bin\Debug\netcoreapp2.0\tpkroot\bin\WidgetApplicationTemplate.pdb
+\\10.113.111.211\share\common\tscholb_sample\Templete_ACR\2021\WidgetTemplate\WidgetApplicationTemplete\WidgetApplicationTemplete\bin\Debug\netcoreapp2.0\tpkroot\shared\res\WidgetApplicationTemplete.png
+\\10.113.111.211\share\common\tscholb_sample\Templete_ACR\2021\WidgetTemplate\WidgetApplicationTemplete\WidgetApplicationTemplete\bin\Debug\netcoreapp2.0\tpkroot\tizen-manifest.xml
+\\10.113.111.211\share\common\tscholb_sample\Templete_ACR\2021\WidgetTemplate\WidgetApplicationTemplete\WidgetApplicationTemplete\bin\Debug\netcoreapp2.0\org.tizen.example.WidgetApplicationTemplate-1.0.0.tpk

@@ -1,0 +1,620 @@
+{
+  "format": 1,
+  "restore": {
+    "\\\\10.113.111.211\\share\\common\\tscholb_sample\\Templete_ACR\\2021\\WidgetTemplate\\WidgetApplicationTemplete\\WidgetApplicationTemplete\\WidgetApplicationTemplate.csproj": {}
+  },
+  "projects": {
+    "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Applications.Common\\Tizen.Applications.Common.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Applications.Common\\Tizen.Applications.Common.csproj",
+        "projectName": "Tizen.Applications.Common",
+        "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Applications.Common\\Tizen.Applications.Common.csproj",
+        "packagesPath": "C:\\Users\\scholb.kim\\.nuget\\packages\\",
+        "outputPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Applications.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\scholb.kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Log\\Tizen.Log.csproj": {
+                "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Log\\Tizen.Log.csproj"
+              },
+              "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen\\Tizen.csproj": {
+                "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen\\Tizen.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Applications.ComponentBased\\Tizen.Applications.ComponentBased.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Applications.ComponentBased\\Tizen.Applications.ComponentBased.csproj",
+        "projectName": "Tizen.Applications.ComponentBased",
+        "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Applications.ComponentBased\\Tizen.Applications.ComponentBased.csproj",
+        "packagesPath": "C:\\Users\\scholb.kim\\.nuget\\packages\\",
+        "outputPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Applications.ComponentBased\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\scholb.kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Applications.Common\\Tizen.Applications.Common.csproj": {
+                "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Applications.Common\\Tizen.Applications.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Log\\Tizen.Log.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Log\\Tizen.Log.csproj",
+        "projectName": "Tizen.Log",
+        "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Log\\Tizen.Log.csproj",
+        "packagesPath": "C:\\Users\\scholb.kim\\.nuget\\packages\\",
+        "outputPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Log\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\scholb.kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.NUI\\Tizen.NUI.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.NUI\\Tizen.NUI.csproj",
+        "projectName": "Tizen.NUI",
+        "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.NUI\\Tizen.NUI.csproj",
+        "packagesPath": "C:\\Users\\scholb.kim\\.nuget\\packages\\",
+        "outputPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.NUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\scholb.kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Applications.Common\\Tizen.Applications.Common.csproj": {
+                "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Applications.Common\\Tizen.Applications.Common.csproj"
+              },
+              "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Applications.ComponentBased\\Tizen.Applications.ComponentBased.csproj": {
+                "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Applications.ComponentBased\\Tizen.Applications.ComponentBased.csproj"
+              },
+              "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.System.Information\\Tizen.System.Information.csproj": {
+                "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.System.Information\\Tizen.System.Information.csproj"
+              },
+              "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.System.SystemSettings\\Tizen.System.SystemSettings.csproj": {
+                "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.System.SystemSettings\\Tizen.System.SystemSettings.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Reflection": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection.TypeExtensions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.System.Information\\Tizen.System.Information.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.System.Information\\Tizen.System.Information.csproj",
+        "projectName": "Tizen.System.Information",
+        "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.System.Information\\Tizen.System.Information.csproj",
+        "packagesPath": "C:\\Users\\scholb.kim\\.nuget\\packages\\",
+        "outputPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.System.Information\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\scholb.kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Log\\Tizen.Log.csproj": {
+                "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Log\\Tizen.Log.csproj"
+              },
+              "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen\\Tizen.csproj": {
+                "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen\\Tizen.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.System.SystemSettings\\Tizen.System.SystemSettings.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.System.SystemSettings\\Tizen.System.SystemSettings.csproj",
+        "projectName": "Tizen.System.SystemSettings",
+        "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.System.SystemSettings\\Tizen.System.SystemSettings.csproj",
+        "packagesPath": "C:\\Users\\scholb.kim\\.nuget\\packages\\",
+        "outputPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.System.SystemSettings\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\scholb.kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Log\\Tizen.Log.csproj": {
+                "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Log\\Tizen.Log.csproj"
+              },
+              "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen\\Tizen.csproj": {
+                "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen\\Tizen.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen\\Tizen.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen\\Tizen.csproj",
+        "projectName": "Tizen",
+        "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen\\Tizen.csproj",
+        "packagesPath": "C:\\Users\\scholb.kim\\.nuget\\packages\\",
+        "outputPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\scholb.kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Log\\Tizen.Log.csproj": {
+                "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.Log\\Tizen.Log.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\10.113.111.211\\share\\common\\tscholb_sample\\Templete_ACR\\2021\\WidgetTemplate\\WidgetApplicationTemplete\\WidgetApplicationTemplete\\WidgetApplicationTemplate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\10.113.111.211\\share\\common\\tscholb_sample\\Templete_ACR\\2021\\WidgetTemplate\\WidgetApplicationTemplete\\WidgetApplicationTemplete\\WidgetApplicationTemplate.csproj",
+        "projectName": "WidgetApplicationTemplate",
+        "projectPath": "\\\\10.113.111.211\\share\\common\\tscholb_sample\\Templete_ACR\\2021\\WidgetTemplate\\WidgetApplicationTemplete\\WidgetApplicationTemplete\\WidgetApplicationTemplate.csproj",
+        "packagesPath": "C:\\Users\\scholb.kim\\.nuget\\packages\\",
+        "outputPath": "\\\\10.113.111.211\\share\\common\\tscholb_sample\\Templete_ACR\\2021\\WidgetTemplate\\WidgetApplicationTemplete\\WidgetApplicationTemplete\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\scholb.kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {
+              "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.NUI\\Tizen.NUI.csproj": {
+                "projectPath": "\\\\10.113.111.211\\share\\common\\github\\TizenFX\\src\\Tizen.NUI\\Tizen.NUI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Tizen.NET.Sdk": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

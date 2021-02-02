@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WidgetTemplete", "WidgetTemplete\WidgetTemplete.csproj", "{84874279-4C9A-49E6-A4E9-753BE644C487}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84874279-4C9A-49E6-A4E9-753BE644C487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84874279-4C9A-49E6-A4E9-753BE644C487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84874279-4C9A-49E6-A4E9-753BE644C487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84874279-4C9A-49E6-A4E9-753BE644C487}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A26059D9-1BDE-484E-B0EA-4229AB33DBB0}
+	EndGlobalSection
+EndGlobal
